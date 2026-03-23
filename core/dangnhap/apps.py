@@ -2,4 +2,5 @@ from django.apps import AppConfig
 
 
 class DangnhapConfig(AppConfig):
-    name = 'dangnhap'
+    default_auto_field = 'django.db.models.BigAutoField'
+    name = 'core.dangnhap'
