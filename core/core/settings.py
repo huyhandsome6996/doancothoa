@@ -31,7 +31,7 @@ INSTALLED_APPS = [
     # --- THƯ VIỆN CÀI THÊM CỦA CHÚNG TA ---
     'corsheaders',      # Xử lý lỗi CORS khi Frontend gọi API
     'rest_framework',   # Hỗ trợ xây dựng API mạnh mẽ
-    'dangnhap'
+    'core.dangnhap'
 ]
 
 MIDDLEWARE = [
